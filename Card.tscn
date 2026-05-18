@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cqdjrex1lybfo"]
+
+[ext_resource type="Texture2D" uid="uid://c2sjln74g2t8p" path="res://ready_3.-1.png.png" id="1_dd2wi"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hael8"]
+size = Vector2(80, 75)
+
+[node name="Area2D" type="Area2D" unique_id=824715132]
+
+[node name="cardImg" type="Sprite2D" parent="." unique_id=991058561]
+position = Vector2(183, 183)
+scale = Vector2(1.6101568, 1.6101563)
+texture = ExtResource("1_dd2wi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=413219753]
+position = Vector2(184, 184)
+scale = Vector2(0.99999994, 0.99999994)
+shape = SubResource("RectangleShape2D_hael8")
