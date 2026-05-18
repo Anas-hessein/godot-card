@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://bihywxclocgog"]
+
+[ext_resource type="Script" uid="uid://dhyov6m78ybhq" path="res://scripts/deck_and_hand.gd" id="1_jdc1h"]
+
+[node name="DeckAndHand" type="Node2D" unique_id=437040428]
+position = Vector2(317, 137)
+script = ExtResource("1_jdc1h")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1605470949]
+
+[node name="Button" type="Button" parent="." unique_id=747948754]
+offset_right = 99.0
+offset_bottom = 35.0
+text = "creat 1
+"
+
+[node name="Button2" type="Button" parent="." unique_id=1055085707]
+offset_left = 1.0
+offset_top = 66.0
+offset_right = 100.0
+offset_bottom = 101.0
+text = "creat 2"
+
+[node name="span_point" type="Node2D" parent="." unique_id=807521395]
+position = Vector2(-162, 42)
