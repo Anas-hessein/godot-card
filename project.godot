@@ -11,12 +11,23 @@ config_version=5
 [application]
 
 config/name="godot-6"
+<<<<<<< HEAD
+run/main_scene="uid://bihywxclocgog"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+
+[display]
+
+window/size/viewport_width=640
+window/size/viewport_height=360
+window/stretch/mode="viewport"
+=======
 run/main_scene="uid://bbexx1ppy2nu4"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]
 
+>>>>>>> 60034252a755550bef57f5eb2ba50cbd573701c6
 window/canvas_textures/default_texture_filter=0
 
 [editor_plugins]
